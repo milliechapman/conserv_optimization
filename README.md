@@ -1,22 +1,4 @@
 # conserv_optimization
-Todo:
-- associate selected cells with data frame, save as solution csv
-
-- test small cases and confirm results
-
-- test for complete data set
-
-- improve interface, add ability to plot map coordinates
-
-- create virtualenv and requirements.txt to automate and pin package deps 
-
-- add ability to maximize for other params, not just area, difficult as 
-  knapsack only works with integer, some for of normalization scheme will 
-  have to preprocess data, or maybe knapsack alg can run with index'd lists 
-  ..notsure
-
-- add ability to set MAX_CELLS from the make file in 'scripts/analyze.py
-  for any given budget, so the default will be to analyze all the cells
 
 Requirements:
 	python3.5
